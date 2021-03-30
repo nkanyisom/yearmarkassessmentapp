@@ -1,5 +1,6 @@
 package za.co.momentum.javabasics.filesprocessor;
 
+import za.co.momentum.javabasics.srccommittee.SrcCommittee;
 import za.co.momentum.javabasics.student.Student;
 
 import java.io.*;
@@ -75,6 +76,51 @@ public class FileProcessorImpl implements FileProcessor {
 
         } catch (Exception ex) {
             ex.printStackTrace();
+        }
+    }
+
+    @Override
+    public void writeSRCCommitteeDataToFile(SrcCommittee srcCommittee, String fileLocation) {
+        try {
+
+            FileOutputStream fileOut = new FileOutputStream(fileLocation);
+            ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);
+            objectOut.writeObject(srcCommittee);
+            objectOut.close();
+            System.out.println("The Object  was succesfully written to a file");
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    @Override
+    public SrcCommittee readSRCCommitteeDataToFile(String fileLocation) {
+
+        //Read object from file
+        SrcCommittee srcCommittee = (SrcCommittee) readObjectFromFile(fileLocation);
+
+        return srcCommittee;
+
+
+    }
+
+    private Object readObjectFromFile(String filepath) {
+
+        try {
+
+            FileInputStream fileIn = new FileInputStream(filepath);
+            ObjectInputStream objectIn = new ObjectInputStream(fileIn);
+
+            Object obj = objectIn.readObject();
+
+            System.out.println("The Object has been read from the file");
+            objectIn.close();
+            return obj;
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return null;
         }
     }
 }
