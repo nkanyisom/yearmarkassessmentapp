@@ -2,8 +2,8 @@ package za.co.momentum.javabasics;
 
 import za.co.momentum.javabasics.filesprocessor.FileProcessor;
 import za.co.momentum.javabasics.filesprocessor.FileProcessorImpl;
-import za.co.momentum.javabasics.studentprotests.StudentProtestData;
-import za.co.momentum.javabasics.studentprotests.StudentProtestDataImpl;
+import za.co.momentum.javabasics.studentprotests.StudentProtestDataCorrection;
+import za.co.momentum.javabasics.studentprotests.StudentProtestDataCorrectionImpl;
 
 
 public class RunStudentApps {
@@ -24,8 +24,8 @@ public class RunStudentApps {
         }
 
         // call the implementation to do number 1
-        StudentProtestData studentProtestData = new StudentProtestDataImpl();
-        studentProtestData.countAnnualProtests(data, fileLocation);
+        StudentProtestDataCorrection studentProtestDataCorrection = new StudentProtestDataCorrectionImpl();
+        studentProtestDataCorrection.countAnnualProtests(data, fileLocation);
 
 
 
