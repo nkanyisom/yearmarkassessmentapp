@@ -2,6 +2,8 @@ package za.co.momentum.javabasics;
 
 import za.co.momentum.javabasics.filesprocessor.FileProcessor;
 import za.co.momentum.javabasics.filesprocessor.FileProcessorImpl;
+import za.co.momentum.javabasics.studentprotests.StudentProtestData;
+import za.co.momentum.javabasics.studentprotests.StudentProtestDataImpl;
 
 
 public class RunStudentApps {
@@ -22,6 +24,10 @@ public class RunStudentApps {
         }
 
         // call the implementation to do number 1
+        StudentProtestData studentProtestData = new StudentProtestDataImpl();
+        studentProtestData.countAnnualProtests(data, fileLocation);
+
+
 
         //Number 2:
         // read the data into a String Array, then filer according to the star and end date and store the index which has the corresponding start adn end date.
