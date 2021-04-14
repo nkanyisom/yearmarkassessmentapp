@@ -4,5 +4,5 @@ import java.util.Date;
 
 public interface StudentProtestDataCorrection {
     void countAnnualProtests(String data[], String fileLocation);
-    String getAnnualProtestReport(Date startDate, Date endDate);
+    String [] getAnnualProtestReport(String startDate, String endDate, String fileLocation);
 }

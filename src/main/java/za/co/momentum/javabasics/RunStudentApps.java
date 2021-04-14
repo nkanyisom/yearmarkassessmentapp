@@ -27,6 +27,8 @@ public class RunStudentApps {
         StudentProtestDataCorrection studentProtestDataCorrection = new StudentProtestDataCorrectionImpl();
         studentProtestDataCorrection.countAnnualProtests(data, fileLocation);
 
+        String protestReport [] = studentProtestDataCorrection.getAnnualProtestReport("10-02-2020", "20-02-2020", fileLocation);
+
 
 
         //Number 2:
