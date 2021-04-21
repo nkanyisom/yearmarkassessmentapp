@@ -1,8 +1,0 @@
-10-02-2020,20-02-2020,ALL,Registration Blockage due to outstanding fees
-10-03-2020,20-03-2020,PRETORIA,Accomodation
-10-03-2020,20-04-2020,ALL,Fees Must fall
-10-07-2020,20-07-2020,BLOEMFONTEIN,Fees must fall
-10-08-2020,20-08-2020,ROSEBANK,Lack of Student support
-10-09-2020,20-09-2020,POLOKWANE,Resulsts held due to outstanding fees
-10-10-2020,20-10-2020,VAAL,Fees Must fall
-10-11-2020,20-11-2020,ALL,Lack of security at Campuses

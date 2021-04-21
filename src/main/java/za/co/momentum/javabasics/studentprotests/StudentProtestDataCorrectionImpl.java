@@ -30,10 +30,21 @@ public class StudentProtestDataCorrectionImpl implements StudentProtestDataCorre
             // 2: we are going to use a substring method to extract the start date and the end date.
 
             if(startDate.contains(protestData[a]) && endDate.contains(protestData[a])) {
+
                 protestDataReport[cnt] = protestData[a];
                 cnt++;
-            }
+                }
+
+/*            if (protestData[a].substring(0,10) == startDate && protestData[a].substring(12,21) == startDate) {
+                protestDataReport[cnt] = protestData[a];
+                cnt++;
+
+            }*/
+
+
         }
+
+
 
         return protestDataReport;
     }
