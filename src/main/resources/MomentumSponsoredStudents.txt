@@ -1,0 +1,16 @@
+ID, UNIQUE_ID, ADDRESS_LINE_1, ADDRESS_LINE_2, POSTAL_CODE, Sponsor
+1, 2525_ZA, 255 Kloor Avenue, Johannesburg, 2006, Multiply
+2, 2530_ZA, 2 Pretorius Street, Pretoria, 0150, Multiply
+3, 2535_ZA, 85 Adendorf Street, Pretoria, 0080, Health
+4, 2545_ZA, 45 Jump Street, Johannesburg, 2057, Multiply
+5, 2555_ZA, 268 West Avenue, Centurion, 0157, Health
+6, 2565_ZA, 25 Vuka Street, Midrand, 1632, Wealth
+7, 2575_ZA, 99 Botha venue, Centurion, 0157, Health
+8, 0025_NMB, 101 Bamboo Road, Windhoek, 10005, Wealth
+9, 1025_ZBW, 2 Mombasa Road, Harare, 00000, Wealth
+10, 210525_ZA, 268 West Avenue, Centurion, 0157, Multiply
+11, 2025_ZBA, 2 Brooklyn Avenue, Lusaka, 00000, Wealth
+12, 2585_ZA, 268 West Avenue, Fourways, 0157, Multiply
+13, 25005_ZA, 268 West Avenue, Midrand, 0157, Health
+14, 55525_ZA, 268 West Avenue, Midrand, 0157, Multiply
+15, 277525_ZA, 268 West Avenue, Cullinan, 0157, Wealth
