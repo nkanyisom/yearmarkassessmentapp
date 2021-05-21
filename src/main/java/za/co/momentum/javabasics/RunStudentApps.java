@@ -10,6 +10,7 @@ public class RunStudentApps {
 
     public static void main(String[] args) {
 
+/*
         String startDates[]  = {"10-02-2020","10-03-2020", "10-03-2020", "10-07-2020", "10-08-2020", "10-09-2020", "10-10-2020", "10-11-2020"};
         String endDates[]  = {"20-02-2020","20-03-2020", "20-04-2020", "20-07-2020", "20-08-2020", "20-09-2020", "20-10-2020", "20-11-2020"};
         String protestCampuses[]  = {"ALL","PRETORIA", "ALL", "BLOEMFONTEIN", "ROSEBANK", "POLOKWANE", "VAAL", "ALL"};
@@ -29,11 +30,9 @@ public class RunStudentApps {
 
         String protestReport [] = studentProtestDataCorrection.getAnnualProtestReport("10-02-2020", "20-02-2020", fileLocation);
 
+*/
 
 
-        //Number 2:
-        // read the data into a String Array, then filer according to the star and end date and store the index which has the corresponding start adn end date.
-        //Please display the protest record for the 10-11-2020 to 20-11-2020
 
 
 
